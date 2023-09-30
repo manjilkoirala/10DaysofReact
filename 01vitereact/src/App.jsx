@@ -4,7 +4,7 @@ function App() {
 
 
   return (
-    <h1>Chai aur React with Vite | Manjil Koirala</h1>
+    <h1>Chai and React with Vite | Manjil Koirala</h1>
   )
 }
 
