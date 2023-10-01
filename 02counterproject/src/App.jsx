@@ -11,12 +11,14 @@ const addValue=()=>{
   
 }
 const removeValue=()=>{
+  if(counter>0){
 setCounter(counter-1)
+  }
 }
 
   return (
     <>
-      <h1>Chai or React</h1>
+      <h1>React with Manjil👀</h1>
       <h2>Counter value: {counter}</h2>
       <button onClick={addValue}>Add Value</button><br />
       <button onClick={removeValue}>Delete Value</button>
