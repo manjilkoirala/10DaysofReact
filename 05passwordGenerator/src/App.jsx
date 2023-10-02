@@ -45,9 +45,11 @@ window.navigator.clipboard.writeText(password )
         readOnly
         ref={passRef}
         />
-        <button className="outline-none bg-blue-600 text-white px-3 py-0.5 shrink-0"
+        <button className="outline-none bg-blue-600 text-white px-3 py-0.5 shrink-0 focus:ring-4 shadow-lg transform active:scale-75 transition-transform"
         onClick={copyclipboard}
-        >copy</button>
+        >
+          
+          copy</button>
       </div>
       <div className="flex text-sm gap-x-2">
         <div className="flex items-center gap-x-1">
